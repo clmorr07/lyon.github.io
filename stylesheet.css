@@ -10,7 +10,6 @@ list-style:none;
 
 .lyon {
     background-image: url(images/lyon.jpg);
-    background-position: ; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
