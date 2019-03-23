@@ -14,14 +14,14 @@ body {
   }
   
   .glow {
-    font-size: 80px;
+    font-size: 16em;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
-  
+
   /*** responsive stuff */
   @-webkit-keyframes glow {
     from {
