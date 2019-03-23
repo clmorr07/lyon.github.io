@@ -8,11 +8,49 @@ padding: 0;
 list-style:none;
 }
 
+.lyon {
+    background-image: url(images/lyon.jpg);
+    background-position: ; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
 body {
     background-color: black;
     font-family: Lato;
     font-size: 8em;
     background: #111;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
       }
+    
+h1 {
+    font-size: 28em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
  
+h2 {
+    font-size: 5.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#button {
+    width: 6em;
+    border: 2px solid magenta;
+    background: black;
+    border-radius: 5px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: black;
+    background: black;
+}
