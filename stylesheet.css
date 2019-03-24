@@ -53,15 +53,20 @@ a:hover {
     background: black;
 }
 
-@media only screen and (max-width: 600px) {
+ 
+@media only screen and (max-width: 736px) {
     h1 {
-        font-size: 14em;
-         margin-top: 30%;
+        font-size: 10em;
+         margin-top: 40%;
+         width: auto;
+         height: auto;
     }
      
     h2 {
-        font-size: 1.5em;
+        font-size: 2em;
         margin-bottom: 5%;
+        width: auto;
+        height: auto;
     }
     
     #button {
