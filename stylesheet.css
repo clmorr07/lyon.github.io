@@ -53,14 +53,27 @@ a:hover {
     background: black;
 }
 
-/*---- Media Queries ---- */
-@media (min-width:769px) {
-    .wrap {
-        min-height: calc(100vh - 89px);
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 14em;
+         margin-top: 30%;
     }
-    .container {
-        width: 75%;
-        margin: 0 auto;
-        max-width: 1000px;
+     
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 5%;
     }
-}
+    
+    #button {
+        width: 3em;
+        border: 0.5px solid magenta;
+        background: black;
+        border-radius: 3px;
+    }
+
+    .lyon {
+        background-image: url(images/lyon.jpg);
+        background-repeat: repeat; /* Do not repeat the image */
+        background-size: cover;
+    }
+    }
