@@ -11,8 +11,8 @@ list-style:none;
 .lyon {
     background-image: url(images/LYON.jpg);
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
-    opacity: 0.30;
+    background-size: cover;
+    opacity: 0.20;
     image-rendering: -webkit-optimize-contrast;
 }
 body {
