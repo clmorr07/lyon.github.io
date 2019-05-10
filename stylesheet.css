@@ -13,6 +13,7 @@ list-style:none;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     opacity: 0.5;
+    filter: alpha(opacity=50);  
 }
 body {
     background-color: black;
@@ -82,6 +83,7 @@ a:hover {
         background-repeat: repeat; /* Do not repeat the image */
         background-size: cover;
         opacity: 0.5;
+        filter: alpha(opacity=50);  
     }
 
     }
