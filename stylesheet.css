@@ -12,6 +12,7 @@ list-style:none;
     background-image: url(images/LYON.jpg);
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+    opacity: 0.5;
 }
 body {
     background-color: black;
