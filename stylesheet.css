@@ -82,7 +82,7 @@ a:hover {
         background-image: url(images/LYON.jpg);
         background-repeat: repeat; /* Do not repeat the image */
         background-size: cover;
-        opacity: 0.5;
+        opacity: 0.75;
     }
 
     }
