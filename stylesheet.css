@@ -11,6 +11,8 @@ list-style:none;
 .lyon {
     background-image: url(images/LYON1.jpg);
     background-repeat: no-repeat; /* Do not repeat the image */;
+    background-attachment: fixed;
+    background-position: center;
 }
 body {
     background-color: black;
