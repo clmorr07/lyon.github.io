@@ -10,10 +10,7 @@ list-style:none;
 
 .lyon {
     background-image: url(images/LYON1.jpg);
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    opacity: 0.20;
-    image-rendering: -webkit-optimize-contrast;
+    background-repeat: no-repeat; /* Do not repeat the image */;
 }
 body {
     background-color: black;
