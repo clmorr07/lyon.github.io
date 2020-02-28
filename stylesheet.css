@@ -73,10 +73,10 @@ a:hover {
     display: inline-block;
     color: #fe019a;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     text-decoration: none;
-    font-size: 17px;
-    width: 20%;
+    font-size: 2em;
+    width: 14%;
   }
   
   /* Change the color of links on hover */
@@ -108,7 +108,7 @@ a:hover {
     }
 
     .lyon {
-        background-image: url(images/LYON.jpg);
+        background-image: url(images/LYON1.jpg);
         background-repeat: repeat; /* Do not repeat the image */
         background-size: cover;
         opacity: 0.75;
