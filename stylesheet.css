@@ -5,19 +5,21 @@
  ol,
  ul {margin: 0;
 padding: 0;
-list-style:none;
+list-style: none;
 }
-
+p {
+    font: black;
+}
 .lyon {
-    background-image: url(images/LYON1.jpg);
+    background-image: url(images/LYON3.jpg);
     background-repeat: no-repeat; /* Do not repeat the image */;
     background-attachment: fixed;
     background-position: center;
 }
 body {
-    background-color: black;
+    background-color: white;
     font-family: Lato;
-    background: #111;
+    background: white;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -35,12 +37,6 @@ h2 {
     margin-bottom: 0;
 }
 
-#button {
-    width: 6em;
-    border: 2px solid magenta;
-    background: black;
-    border-radius: 5px;
-}
 a {
     display: block;
     width: 100%;
@@ -57,24 +53,25 @@ a:hover {
 .main-nav {
     font-size: 1em;
     width: 100%;
-    background: grey;
+    background: white;
     margin-top: auto;
     text-align: center;
   }
  
 
 .topnav {
-    background-color: #000000;
+    background-color: #white;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     display: inline-block;
-    color: #fe019a;
+    color: #fe016b;
     text-align: center;
     padding: 2px;
     text-decoration: none;
+    font-weight: bold;
     font-size: 2em;
     width: 14%;
   }
@@ -100,15 +97,9 @@ a:hover {
         height: auto;
     }
     
-    #button {
-        width: 3em;
-        border: 0.5px solid magenta;
-        background: black;
-        border-radius: 3px;
-    }
 
     .lyon {
-        background-image: url(images/LYON1.jpg);
+        background-image: url(images/LYON3.jpg);
         background-repeat: repeat; /* Do not repeat the image */
         background-size: cover;
         opacity: 0.75;
