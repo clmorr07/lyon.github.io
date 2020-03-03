@@ -40,6 +40,18 @@ input[type=text], select, textarea {
 
 }
 
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fe016b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
 h3 {
      color: #fe016a;
      font-size: 3.5em;
@@ -61,7 +73,7 @@ input[type=submit]:hover {
   background-color: #000;
 }
 
-.container {
+  .contact-form {
   border-radius: 5px;
 
   clear: both;
@@ -77,18 +89,20 @@ font-weight: bold;
 
 <h3>Contact Panty Pilot Diaries</h3>
 
-<div class="container">
-  <form action="contact-form.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<div class="contact-form">
+  <form class="contact-form" method="post" action="contact-form.php">
+    <label for="name">Name</label>
+    <input name="name" type="text" placeholder="Your name.." required>
+    <br>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input name="email" type="email" placeholder="Your email.." required>
+    <br>
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="message">Message</label>
+    <textarea name="message" id="subject" placeholder="Write something.." style="height:200px" required></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Send Message">
   </form>
 </div>
 <footer>

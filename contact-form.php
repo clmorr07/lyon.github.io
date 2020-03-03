@@ -1,16 +1,16 @@
 <?php
-    $firstname = $_POST[ 'firstname'];
-    $lastname = $_POST['lastname'];
-    $subject = $_POST['subject'];
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
 
 
     $email_from = 'clmorr07@icloud.com';
 
     $email_subject = "New Form Submission";
 
-    $email_body = "User Name: $firstname.\n".
-                    "User Name1: $lastname.\n".
-                        "User Message: $subject.\n";
+    $email_body = "User Name: $name.\n".
+                    "User Email: $vistor_email.\n".
+                        "User Message: $message.\n";
 
 
     $to = "clmorr07@icloud.com";
