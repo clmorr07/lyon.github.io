@@ -16,6 +16,28 @@ p {
     background-attachment: fixed;
     background-position: center;
 }
+
+.back {
+    background-image: url(images/LYON4.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.up {
+    background-image: url(images/LYON4.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home {
+    background-image: url(images/LYON5.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 body {
     background-color: white;
     font-family: Lato;
