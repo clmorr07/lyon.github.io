@@ -7,21 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
 </head>
 <body class="back">
-      <nav>
-          <div class="topnav" id="myTopnav">
-            <a href="home.html" class="active">HOME</a>
-            <a href="bio.html" class="active">BIO</a>
-            <a href="#Blog">BLOG</a>
-            <a href="#Gallery">GALLERY</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-         </nav>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <a href="home.html" class="logo">HOME</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="bio.html" class="nav-links">BIO</a>
+            </li>
+            <li>
+                <a href="#Blog" class="nav-links">BLOG</a>
+            </li>
+            <li>
+                <a href="#Gallery" class="nav-links">GALLERY</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-links">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+<script>
+    let mainNav = document.getElementById('js-menu');
+
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('active');
+    });
+
+</script>
 
     <main>
     </main>
