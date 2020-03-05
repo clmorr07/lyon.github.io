@@ -6,7 +6,7 @@
 
     $email_from = 'clmorr07@icloud.com';
 
-    $email_subject = "New Form Submission";
+    $email_subject = "New Message PPD";
 
     $email_body = "User Name: $name.\n".
                     "User Email: $vistor_email.\n".
